@@ -1,55 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 800" onload="init()">
-  <defs>
-    <!-- brain dump @ assoc(time) + perturb & rotate, repeat as needed. -->
-    <text id="t" y="40" font-family="Impact" font-size="48">
-      <tspan>Time is running. Do you have the time? Lunchtime.</tspan>
-      <tspan dy="1em" x="0">Tick tock tick tock. Seven o'clock. Tick tock.</tspan>      
-      <tspan dy="1em" x="0">Watch out. 6.30am, August 27, 2013. Glue.</tspan>      
-      <tspan dy="1em" x="0">Did you see 23:23 on the alarmclock again?</tspan>      
-      <tspan dy="1em" x="0">In Tokyo it's already noon. But you are somewhere else.</tspan>      
-      <tspan dy="1em" x="0">Wake up, time for work. When is the meeting?</tspan>      
-      <tspan dy="1em" x="0">Are you late? What time is it? Snoozing polar bears.</tspan>      
-      <tspan dy="1em" x="0">4pm. The taxi is waiting. Scheduled plans.</tspan>      
-      <tspan dy="1em" x="0">In a way it's already December. Validate.</tspan>
-      <tspan dy="1em" x="0">The summer is coming, but it's still spring.</tspan>      
-      <tspan dy="1em" x="0">Can't wait any longer. Cold storage required.</tspan>      
-      <tspan dy="1em" x="0">Early morning hacking. Infinitesimal loop iterations.</tspan>
-      <tspan dy="1em" x="0">The milk expired while I read the newspaper.</tspan>      
-      <tspan dy="1em" x="0">A kiss as I left in the morning. Do you have the timetable? </tspan>      
-      <tspan dy="1em" x="0">Travelling to Nice, France. Bonjour I suppose.</tspan>
-      <tspan dy="1em" x="0">13 hundred hours. Time flying. Is it bedtime yet?</tspan>      
-      <tspan dy="1em" x="0">Are we there yet? Killing time in Amsterdam.</tspan>
-    </text>
-
-    <clipPath id="c1">
-      <circle cx="50%" cy="50%" r="10%"/>
-    </clipPath>
-    <mask id="c2" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-      <circle cx="50%" cy="50%" r="20%" fill="white"/>
-      <circle cx="50%" cy="50%" r="11%" fill="black"/>
-    </mask>
-    <mask id="c3" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-      <circle cx="50%" cy="50%" r="30%" fill="white"/>
-      <circle cx="50%" cy="50%" r="21%" fill="black"/>
-    </mask>
-    <mask id="c4" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-      <circle cx="50%" cy="50%" r="40%" fill="white"/>
-      <circle cx="50%" cy="50%" r="31%" fill="black"/>
-    </mask>
-    <mask id="c5" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-      <circle cx="50%" cy="50%" r="50%" fill="white"/>
-      <circle cx="50%" cy="50%" r="41%" fill="black"/>
-    </mask>
-    <mask id="c6" maskUnits="userSpaceOnUse" x="0" y="0" width="100%" height="100%">
-      <rect width="100%" height="100%" fill="white"/>
-      <circle cx="50%" cy="50%" r="51%" fill="black"/>
-    </mask>
-    <style type="text/css">
-      a:hover { fill: blue; text-decoration: underline }
-    </style>
-  </defs>
-  
-  <script><![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" onload="init()" viewBox="0 0 800 800"><defs><text id="t" y="40" font-family="Impact" font-size="48"><tspan>Time is running. Do you have the time? Lunchtime.</tspan> <tspan x="0" dy="1em">Tick tock tick tock. Seven o&apos;clock. Tick tock.</tspan> <tspan x="0" dy="1em">Watch out. 6.30am, August 27, 2013. Glue.</tspan> <tspan x="0" dy="1em">Did you see 23:23 on the alarmclock again?</tspan> <tspan x="0" dy="1em">In Tokyo it&apos;s already noon. But you are somewhere else.</tspan> <tspan x="0" dy="1em">Wake up, time for work. When is the meeting?</tspan> <tspan x="0" dy="1em">Are you late? What time is it? Snoozing polar bears.</tspan> <tspan x="0" dy="1em">4pm. The taxi is waiting. Scheduled plans.</tspan> <tspan x="0" dy="1em">In a way it&apos;s already December. Validate.</tspan> <tspan x="0" dy="1em">The summer is coming, but it&apos;s still spring.</tspan> <tspan x="0" dy="1em">Can&apos;t wait any longer. Cold storage required.</tspan> <tspan x="0" dy="1em">Early morning hacking. Infinitesimal loop iterations.</tspan> <tspan x="0" dy="1em">The milk expired while I read the newspaper.</tspan> <tspan x="0" dy="1em">A kiss as I left in the morning. Do you have the timetable? </tspan> <tspan x="0" dy="1em">Travelling to Nice, France. Bonjour I suppose.</tspan> <tspan x="0" dy="1em">13 hundred hours. Time flying. Is it bedtime yet?</tspan> <tspan x="0" dy="1em">Are we there yet? Killing time in Amsterdam.</tspan></text><clipPath id="c1"><circle cx="50%" cy="50%" r="10%"/></clipPath><mask id="c2" width="100%" height="100%" x="0" y="0" maskUnits="userSpaceOnUse"><circle cx="50%" cy="50%" r="20%" fill="#fff"/><circle cx="50%" cy="50%" r="11%" fill="#000"/></mask><mask id="c3" width="100%" height="100%" x="0" y="0" maskUnits="userSpaceOnUse"><circle cx="50%" cy="50%" r="30%" fill="#fff"/><circle cx="50%" cy="50%" r="21%" fill="#000"/></mask><mask id="c4" width="100%" height="100%" x="0" y="0" maskUnits="userSpaceOnUse"><circle cx="50%" cy="50%" r="40%" fill="#fff"/><circle cx="50%" cy="50%" r="31%" fill="#000"/></mask><mask id="c5" width="100%" height="100%" x="0" y="0" maskUnits="userSpaceOnUse"><circle cx="50%" cy="50%" r="50%" fill="#fff"/><circle cx="50%" cy="50%" r="41%" fill="#000"/></mask><mask id="c6" width="100%" height="100%" x="0" y="0" maskUnits="userSpaceOnUse"><rect width="100%" height="100%" fill="#fff"/><circle cx="50%" cy="50%" r="51%" fill="#000"/></mask><style type="text/css">a:hover{fill:#00f;text-decoration:underline}</style></defs><script><![CDATA[
     var colors = ["#0077E7", 
                   "#E700A5",
                   "#E77000",
@@ -123,26 +72,4 @@
           ts.appendChild(posttsw);
        }
     }
-  ]]></script>
-
-  <switch>
-    <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Mask">
-      <use id="u1" xlink:href="#t" clip-path="url(#c1)" width="100%" height="100%" transform="rotate(-8 400 400)"/>
-      <use id="u2" xlink:href="#t" mask="url(#c2)" width="100%" height="100%" transform="rotate(-16 400 400)"/>
-      <use id="u3" xlink:href="#t" mask="url(#c3)" width="100%" height="100%" transform="rotate(-8 400 400)"/>
-      <use id="u4" xlink:href="#t" mask="url(#c4)" width="100%" height="100%" transform="rotate(-4 400 400)"/>
-      <use id="u5" xlink:href="#t" mask="url(#c5)" width="100%" height="100%" transform="rotate(-2 400 400)"/>
-      <use id="u6" xlink:href="#t" mask="url(#c6)" width="100%" height="100%"/>
-    </g>
-    <g font-family="Impact" font-size="48" text-anchor="middle">
-      <text x="50%" y="50%" text-anchor="middle">This browser doesn't support masking.</text>
-      <a xlink:href="http://www.opera.com/download"><text x="50%" y="60%" font-size="24">Click here to download the Opera browser.</text></a>
-    </g>
-  </switch>
-
-  <animateTransform type="rotate" values="0 400 400;360 400 400" dur="360s" repeatDur="indefinite" attributeName="transform" xlink:href="#u1"/>
-  <animateTransform type="rotate" values="0 400 400;360 400 400" dur="300s" repeatDur="indefinite" attributeName="transform" xlink:href="#u2"/>
-  <animateTransform type="rotate" values="0 400 400;360 400 400" dur="500s" repeatDur="indefinite" attributeName="transform" xlink:href="#u3"/>
-  <animateTransform type="rotate" values="0 400 400;360 400 400" dur="180s" repeatDur="indefinite" attributeName="transform" xlink:href="#u4"/>
-  <animateTransform type="rotate" values="0 400 400;360 400 400" dur="666s" repeatDur="indefinite" attributeName="transform" xlink:href="#u5"/>
-</svg>
+  ]]></script><switch><g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Mask"><use id="u1" width="100%" height="100%" clip-path="url(#c1)" transform="rotate(-8 400 400)" xlink:href="#t"/><use id="u2" width="100%" height="100%" mask="url(#c2)" transform="rotate(-16 400 400)" xlink:href="#t"/><use id="u3" width="100%" height="100%" mask="url(#c3)" transform="rotate(-8 400 400)" xlink:href="#t"/><use id="u4" width="100%" height="100%" mask="url(#c4)" transform="rotate(-4 400 400)" xlink:href="#t"/><use id="u5" width="100%" height="100%" mask="url(#c5)" transform="rotate(-2 400 400)" xlink:href="#t"/><use id="u6" width="100%" height="100%" mask="url(#c6)" xlink:href="#t"/></g><g font-family="Impact" font-size="48" text-anchor="middle"><text x="50%" y="50%" text-anchor="middle">This browser doesn&apos;t support masking.</text><a xlink:href="http://www.opera.com/download"><text x="50%" y="60%" font-size="24">Click here to download the Opera browser.</text></a></g></switch><animateTransform attributeName="transform" dur="360s" repeatDur="indefinite" type="rotate" values="0 400 400;360 400 400" xlink:href="#u1"/><animateTransform attributeName="transform" dur="300s" repeatDur="indefinite" type="rotate" values="0 400 400;360 400 400" xlink:href="#u2"/><animateTransform attributeName="transform" dur="500s" repeatDur="indefinite" type="rotate" values="0 400 400;360 400 400" xlink:href="#u3"/><animateTransform attributeName="transform" dur="180s" repeatDur="indefinite" type="rotate" values="0 400 400;360 400 400" xlink:href="#u4"/><animateTransform attributeName="transform" dur="666s" repeatDur="indefinite" type="rotate" values="0 400 400;360 400 400" xlink:href="#u5"/></svg>

@@ -1,5 +1,1 @@
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" 
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <circle cx="100" cy="100" r="30" fill="blue" stroke="red"/>
-    <rect x="10" y="10" width="80" height="40" fill="yellow" stroke="black"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><circle cx="100" cy="100" r="30" fill="#00f" stroke="red"/><rect width="80" height="40" x="10" y="10" fill="#ff0" stroke="#000"/></svg>
