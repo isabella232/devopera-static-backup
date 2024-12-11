@@ -1,11 +1,1 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 100 100">
-  <rect width="50" height="50" fill="red" opacity="0">
-    <animate attributeName="opacity" to="1" dur="30s" fill="freeze" />
-    <animate attributeName="x" to="50" dur="15s" repeatCount="2" />
-  </rect>
-  <rect width="50" height="50" x="50" y="50" fill="blue" stroke="red" stroke-width="1">
-    <animate attributeName="stroke-width" to="7" dur="3s" repeatCount="10" />
-    <animate attributeName="opacity" to=".1" begin="10s" dur="10s" />
-  </rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 100 100"><rect width="50" height="50" fill="red" opacity="0"><animate fill="freeze" attributeName="opacity" dur="30s" to="1"/><animate attributeName="x" dur="15s" repeatCount="2" to="50"/></rect><rect width="50" height="50" x="50" y="50" fill="#00f" stroke="red" stroke-width="1"><animate attributeName="stroke-width" dur="3s" repeatCount="10" to="7"/><animate attributeName="opacity" begin="10s" dur="10s" to=".1"/></rect></svg>

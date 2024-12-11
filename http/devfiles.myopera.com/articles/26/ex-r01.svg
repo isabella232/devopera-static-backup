@@ -1,6 +1,1 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 100 100">
-  <rect width="50" height="50">
-    <animate attributeName="width" to="100" dur="10s" />
-  </rect>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="4em" height="4em" viewBox="0 0 100 100"><rect width="50" height="50"><animate attributeName="width" dur="10s" to="100"/></rect></svg>
